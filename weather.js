@@ -1,7 +1,7 @@
 
 class Weather {
   constructor(city,  state) {
-	this.API_KEY = '6fe7eccc109401c2';
+	this.API_KEY = secret.env;
 	this.ROOT_URL = 'http://api.wunderground.com/api/'
 	this.city = city;
 	this.state = state;
